@@ -50,7 +50,7 @@ The analysis was designed to answer the following business questions:
 The project uses four main datasets:
 
 | Table | Records |
-|---|---|---:|
+|---|---|
 | `transaction` | 672,458 |
 | `product` | 150 |
 | `cabang` | 1,725 |
@@ -159,6 +159,7 @@ The key identifiers were also validated for uniqueness according to their respec
 | `inventory` | 1 row = 1 inventory record |
 
 A key finding during validation was that `inventory` contains multiple records for the same `branch_id` and `product_id`. Therefore, directly joining transaction and inventory at row level could duplicate transactions and inflate revenue.
+
 ---
 ## SQL Analysis
 
