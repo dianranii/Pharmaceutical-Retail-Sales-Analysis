@@ -276,7 +276,7 @@ An executive dashboard was developed in Power BI to communicate the main finding
 
 ### Dashboard Preview
 
-![Power BI Dashboard](images/dashboard.png)
+![Power BI Dashboard](images/dashboard.jpg)
 
 ---
 
